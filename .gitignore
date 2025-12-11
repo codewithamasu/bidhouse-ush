@@ -1,0 +1,69 @@
+# =========================
+# Node Modules & Logs
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+logs/
+*.log
+
+# =========================
+# Environment Files
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Prisma
+# =========================
+prisma/dev.db
+prisma/dev.db-journal
+prisma/*.db
+prisma/migrations/
+# (only ignore migrations if you don’t want them in git)
+# remove above line if you DO want migrations tracked
+
+# Generated Prisma client
+/node_modules/.prisma/
+
+# =========================
+# Build Artifacts
+# =========================
+dist/
+build/
+coverage/
+
+# =========================
+# Docker
+# =========================
+docker-compose.override.yml
+docker-data/
+docker_logs/
+
+# =========================
+# Editor / OS Files
+# =========================
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+*.swp
+*.swo
+
+# =========================
+# Swagger / Generated Docs
+# =========================
+swagger.json
+swagger-output.json
+
+# =========================
+# Test environment
+# =========================
+coverage/
+tmp/
+test-results/
