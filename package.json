@@ -7,8 +7,7 @@
     "dev": "nodemon src/server.js",
     "test": "NODE_OPTIONS=--experimental-vm-modules jest",
     "prisma:seed": "node prisma/seed.js",
-    "prisma:reset": "node prisma/reset-table.js",
-    "start": "node src/server.js"
+    "prisma:reset": "node prisma/reset-table.js"
   },
   "keywords": [],
   "author": "",
