@@ -1,0 +1,4 @@
+1. Github Repository 
+https://github.com/codewithamasu/bidhouse-ush
+
+Catatan : dokumentasi API hanya bisa dilihat melalui lokalhost pada /api/docs
